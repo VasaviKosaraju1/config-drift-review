@@ -1,0 +1,16 @@
+{
+  "expected": {
+    "replicas": 2,
+    "image": "app:1.0",
+    "metadata": {
+      "generated_at": "before"
+    }
+  },
+  "actual": {
+    "replicas": 1,
+    "image": "app:1.1",
+    "metadata": {
+      "generated_at": "after"
+    }
+  }
+}
